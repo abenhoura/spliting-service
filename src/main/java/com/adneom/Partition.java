@@ -7,7 +7,6 @@ import java.util.List;
 /***
  * @author Abderrahmane.Benhoura
  * @version 1.0.0
- * @param <T>
  */
 
 public final class Partition<T> extends AbstractList<List<T>> {
