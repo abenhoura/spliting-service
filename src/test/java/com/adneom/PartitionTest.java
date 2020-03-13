@@ -1,4 +1,4 @@
-import com.adneom.Partition;
+package com.adneom;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -6,8 +6,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-
-public class splitService {
+public class PartitionTest {
 
     @Test
     public void mustSplitInThreeLists() {
@@ -48,7 +47,7 @@ public class splitService {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void mustThrowIllegalArgumentExceptionWhenchunksizeLessThenZero() {
+    public void mustThrowIllegalArgumentExceptionWhenChunksizeLessThenZero() {
         //Arrange
         final List<Integer> numbers = Arrays.asList(1, 2, 3, 4);
 
@@ -68,3 +67,4 @@ public class splitService {
         //Assert
     }
 }
+
