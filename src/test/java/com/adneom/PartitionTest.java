@@ -58,7 +58,7 @@ public class PartitionTest {
     }
 
     @Test(expected = IllegalArgumentException.class)
-    public void mustThrowIllegalArgumentExceptionWhenListIsEmpty() {
+    public void mustThrowIllegalArgumentExceptionWhenListIsNull() {
         //Arrange
 
         //Act
